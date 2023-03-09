@@ -1,3 +1,2 @@
 #!/bin/bash
-filename="/tmp/iamafile"
-file "$filename"
+filename="/tmp/iamafile" file "$filename"
