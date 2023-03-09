@@ -1,4 +1,4 @@
 #!/bin/bash
+string SCHOOL School data file
 file -C -m school school.mgc
 file -m school.mgc <filename>
-
