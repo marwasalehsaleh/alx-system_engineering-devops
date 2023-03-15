@@ -1,0 +1,2 @@
+#!/bin/bash
+RESULT=$(echo "scale=2; $BREATH ** $LOVE" | bc)
