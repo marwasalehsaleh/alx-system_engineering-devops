@@ -1,0 +1,5 @@
+#!/bin/bash
+TRUEKNOWLEDGE=$TRUEKNOWLEDGE
+SUM=$(expr $TRUEKNOWLEDGE + 128)
+echo $SUM
+echo ""
