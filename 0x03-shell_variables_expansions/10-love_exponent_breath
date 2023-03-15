@@ -1,5 +1,2 @@
 #!/bin/bash
-import os
-binary = os.environ.get('BINARY')
-decimal = int(binary, 2)
-print(decimal)
+RESULT=$(echo "scale=2 ; $BREATH^$LOVE" | bc)
