@@ -1,0 +1,5 @@
+#!/bin/bash
+import os
+binary = os.environ.get('BINARY')
+decimal = int(binary, 2)
+print(decimal)
