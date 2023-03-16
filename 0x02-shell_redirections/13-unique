@@ -1,0 +1,2 @@
+#!/bin/bash
+$ python find_uniq_words.py < input.txt
