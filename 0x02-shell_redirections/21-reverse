@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "Enter input:"
+read input
+echo "$input" | rev | tr '\n' '\f' | rev | tr '\f' '\n'
